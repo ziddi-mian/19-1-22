@@ -330,9 +330,6 @@ dt = new Date();
 console.log(startOfMonth(dt).toString());
 
 
-
-
-
 // Write a JavaScript function to get the month end date.  
 
 function endOfMonth(date)
@@ -345,3 +342,4 @@ function endOfMonth(date)
 dt = new Date(); 
 
 console.log(endOfMonth(dt).toString());
+
