@@ -54,6 +54,7 @@ console.log(diff_to_GMT(dt));
 // console.log(timezone_offset_in_seconds(dt));
 // 19800
 
+
 function timezone_offset_in_seconds(dt) 
 { 
    return -dt.getTimezoneOffset() * 60;
