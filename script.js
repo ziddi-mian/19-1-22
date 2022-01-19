@@ -116,8 +116,6 @@ console.log(add_weeks(dt, 10).toString());
 
 
 
-
-
 function add_months(dt, n) 
  {
 
@@ -128,6 +126,8 @@ dt = new Date();
 console.log(add_months(dt, 10).toString());  
 dt = new Date(2014,10,2);
 console.log(add_months(dt, 10).toString());
+
+
 
 // Write a JavaScript function to get time differences in minutes between two dates.   
 // Test Data :
